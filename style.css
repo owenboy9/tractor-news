@@ -51,6 +51,10 @@ base font size is 16
 */
 @import url('https: //fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Quicksand&display=swap');
 
-.quote{
+main:nth-child(2) {
+  display: flex;
+}
+
+.quote {
   ;
 }
