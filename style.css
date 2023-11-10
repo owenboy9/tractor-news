@@ -1,0 +1,51 @@
+/*
+
+_____________________
+selector{
+  attribute1: value1;
+  attribute2: value2;
+}
+_____________________
+
+
+the way to do it in .js: element.style.textAlign=center 
+
+flex HAS to refer to main, not to div here
+
+klockan{
+  padding: 12 3 6 9 --> 4 directions
+  margin: 12 3 6 --> top, bredth, bottom
+  border-width: 12 3 --> hight, width
+  outline: 12 --> all the same
+}
+if you want to have the same up & down and/or left&right – just write it once
+
+.author -->shorthand for class;
+you could write it like this: class:author
+
+div>* {
+  border: 5px solid green;
+} --> direct descendant selector: ALL ELEMENTS WITHIN every DIV
+
+div * {
+  border: 5px solid green;
+}
+--> all descendant selector: ALL ELEMENTS WITHIN every element from here down
+
+article:last-child {
+  border-bottom: none;
+} --> pseudo-selector
+
+article:nth-child(5) {
+  border-bottom: none;
+}
+
+# = id
+id is unique, only one element can use it
+
+em - width of "m"
+ex - hight of "x"
+
+base font size is 16
+
+*/
