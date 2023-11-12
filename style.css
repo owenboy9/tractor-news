@@ -49,12 +49,32 @@ ex - hight of "x"
 base font size is 16
 
 */
-@import url('https: //fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital@0;1&display=swap');
+
+/*
+font-family: 'Cardo',
+serif;
+font-family: 'Open Sans',
+sans-serif;
+*/
 
 main:nth-child(2) {
   display: flex;
 }
 
-.quote {
-  ;
+img {
+  border-radius: 10%;
+  width: 65%;
+}
+
+blockquote {
+  margin: 10px;
+}
+
+blockquote:first-letter {
+  font-size: 250%;
+  line-height: 100%;
+  margin-bottom: -5px;
+  margin-right: 5px;
+  float: left;
 }
